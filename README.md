@@ -36,7 +36,7 @@ gitbook install
 $ gitbook serve
 ```
 
-通过`http://localhost:4000`实时浏览
+通过 [http://localhost:4000](http://localhost:4000) 实时浏览
 
 (5)生成目录
 
