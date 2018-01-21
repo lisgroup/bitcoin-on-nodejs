@@ -1,6 +1,60 @@
 Node.js开发加密货币
 ===================
 
+使用（Usage)
+------------
+
+目录由命令行工具 [gitbook-summary](https://github.com/imfly/gitbook-summary) 自动生成。自由写作、发布，搭建自出版平台的方法，请[点击这里](https://github.com/imfly/how-to-create-self-publishing-platform)
+
+简要介绍如下：
+
+(1)克隆源文
+
+```
+$ git clone https://github.com/imfly/bitcoin-on-nodejs.git
+```
+
+(2)安装gitbook
+
+```
+$ npm install -g gitbook-cli
+```
+
+(3)安装依赖包
+
+```
+cd bitcoin-on-nodejs
+npm install
+gitbook install
+```
+
+(4)写作构建
+
+写作，并开启服务（构建）
+
+```
+$ gitbook serve
+```
+
+通过`http://localhost:4000`实时浏览
+
+(5)生成目录
+
+只要修改了文章标题和文件夹，就应该重新生成目录文件
+
+```
+$ npm run summary
+```
+
+(6)一键发布
+
+```
+$ npm run deploy
+```
+
+以后，只要4-6的过程就是了。
+
+
 ## 长期招聘
 
 亿书，让有知识的人富起来。我们未来的产品，将全部基于P2P网络进行开发设计，面向未来进行技术研发。如果您对区块链感兴趣，欢迎加入我们：
@@ -59,58 +113,6 @@ Node.js开发加密货币
 -	[x] 2016-03-10 发布第9篇
 -	[x] 完成1-8篇
 
-使用（Usage)
-------------
-
-目录由命令行工具 [gitbook-summary](https://github.com/imfly/gitbook-summary) 自动生成。自由写作、发布，搭建自出版平台的方法，请[点击这里](https://github.com/imfly/how-to-create-self-publishing-platform)
-
-简要介绍如下：
-
-(1)克隆源文
-
-```
-$ git clone https://github.com/imfly/bitcoin-on-nodejs.git
-```
-
-(2)安装gitbook
-
-```
-$ npm install -g gitbook-cli
-```
-
-(3)安装依赖包
-
-```
-cd bitcoin-on-nodejs
-npm install
-gitbook install
-```
-
-(4)写作构建
-
-写作，并开启服务（构建）
-
-```
-$ gitbook serve
-```
-
-通过`http://localhost:4000`实时浏览
-
-(5)生成目录
-
-只要修改了文章标题和文件夹，就应该重新生成目录文件
-
-```
-$ npm run summary
-```
-
-(6)一键发布
-
-```
-$ npm run deploy
-```
-
-以后，只要4-6的过程就是了。
 
 反馈（Feedback）
 ----------------
