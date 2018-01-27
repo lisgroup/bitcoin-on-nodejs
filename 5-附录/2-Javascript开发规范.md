@@ -135,6 +135,7 @@ https://github.com/airbnb/javascript
   - 向数组增加元素时使用 Array#push 来替代直接赋值。
 
     ```javascript
+    
     var someStack = [];
 
 
