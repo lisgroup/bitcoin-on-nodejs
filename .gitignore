@@ -8,6 +8,7 @@ _book
 
 *.*~
 *.log
+*.out
 
 bower_components
 node_modules
